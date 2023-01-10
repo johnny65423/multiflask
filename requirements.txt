@@ -1,0 +1,5 @@
+Flask==2.2.2
+Flask_Login==0.6.2
+Flask_PyMongo==2.3.0
+Flask_SocketIO==5.3.2
+Pillow==9.4.0

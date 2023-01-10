@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ChatRoom</title>
+    <link rel='stylesheet' href='static/css/style.css' />
+  </head>
+
+  <script src="static/pixi/pixi.min.js"></script>
+  <script src="../static/pixi/pixi.TextInput.min.js"></script>
+  <script src="../static/pixi/charm.js"></script>
+  <!-- <script src="/../socket.io/socket.io.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js" integrity="sha512-q/dWJ3kcmjBLU4Qc47E4A9kTB4m3wuTY7vkFJDTZKjTs8jhyGQnaUrxa0Ytd0ssMZhbNua9hE+E7Qv1j+DyZwA==" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+  <body>
+    
+    <center>
+      <!-- <p class="title">Gather Town 成就系統</h1>
+      <p><h3>班級 : 401</h3></p>
+      <p><h3>座號 : 01</h3></p>
+      <hr>
+      <br> -->
+      <div id="GameCanvas"></div>
+      <script>
+        var jsusername = '{{current_user.username}}';
+        var exports = {};
+      </script>
+      <script type='module' src="static/game.js"></script>
+    </center>
+  </body>
+</html>
